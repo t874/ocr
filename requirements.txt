@@ -1,0 +1,23 @@
+# To install these Python dependencies, please type:
+# > pip install -r requirements.txt
+# or if you use conda:
+# > conda install --file requirements.txt
+
+# If building docker image, comment out faiss-cpu (Dockerfile will install faiss separately. Otherwise will return "Illegal instruction" error)
+faiss-cpu 
+streamlit
+tensorflow
+numpy
+matplotlib
+scipy
+scikit-learn
+pandas
+pillow
+pyyaml
+
+
+# other notes: 
+# if faiss-cpu fails to install using default channels, use
+# conda install -c pytorch faiss-cpu
+
+
